@@ -1,0 +1,13 @@
+Dataset Description:
+The dataset consists of 502 entries with 10 attributes, including Gender, Age, Academic Pressure, Sleep Duration, Dietary Habits, Study Hours, Financial Stress, Family History of Mental Illness, and Depression (target variable). Some columns contained missing values, which were handled using the most frequent value imputation. Categorical data was encoded, and numerical features were standardized.
+
+Model Performance:
+Several machine learning models were tested to predict depression based on the given attributes. The models evaluated include:
+
+Logistic Regression
+
+Random Forest Classifier
+
+Support Vector Machine (SVM)
+
+Among these, the Random Forest Classifier achieved the highest accuracy of 78.2%, making it the best-performing model for this dataset.
